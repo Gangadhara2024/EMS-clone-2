@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.root{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(7, 7, 7, 0.792);
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+#form{
+    background-color: rgb(63, 68, 69);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:15px;
+    padding: 20px;
+    border: none;
+}
+#form>input, #form>select, #form>button{
+    padding: 12px 10px;
+    border: none;
+    border-radius: 10px; 
+}
+#form>button{
+    background-color: rgb(139, 191, 199);
+    color:rgb(17, 15, 15);
+}
+.table{
+    color:white;
+    width:100%;
+    border-collapse: collapse;
+    padding: 4px 8px;
+}
+.table,th,td{
+    border:1px solid white;
+    padding:8px 16px;
+}
+.icon{
+    background-color: rgb(250, 178, 45);
+    border-radius: 40px;
+    padding: 4px;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS-2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="root" data-age="26" data-name="hello">
+        <form id="form">
+            <input type="text" name=name placeholder="your name" required>
+            <input type="email" name=email placeholder="mail" required>
+            <input type="number" name=salary placeholder="salary" required>
+
+            <select name="gender" required>
+               <option value="male">Male</option>
+               <option value="female">Female</option>
+               <option value="others">others</option>
+            </select>
+
+            <input type="text" name="companyname" placeholder="company name" required></input>
+            <select name="role">
+              <option value="tester">tester</option>
+              <option value="web">WEB</option>
+              <option value="sde">SDE</option>
+            </select>
+
+            <button>Submit Form</button>
+        </form>
+
+        <div>
+               <table class="table">
+                   <thead>
+                   <tr>
+                       <th>Name</th>
+                       <th>Company name</th>
+                       <th>Salary</th>
+                       <th>gender</th>
+                       <th>role</th>
+                       <th>email</th>
+                       <th>options</th>
+                   </tr>
+                   </thead>
+
+                   <tbody id="body-box">
+
+                   </tbody>
+               </table>
+        </div>
+   </div>
+          <script src="./script.js"></script>
+</body>
+</html>
